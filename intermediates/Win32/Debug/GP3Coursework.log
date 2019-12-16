@@ -1,0 +1,21 @@
+﻿  GP3Coursework.cpp
+Application.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "private: void __thiscall Application::OpenGlInit(void)" (?OpenGlInit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function "private: void __thiscall Application::OpenGlInit(void)" (?OpenGlInit@Application@@AAEXXZ)
+Log.obj : error LNK2001: unresolved external symbol __imp__glewGetErrorString@4
+Application.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SetAttribute referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_CreateContext referenced in function "private: void __thiscall Application::OpenGlInit(void)" (?OpenGlInit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SetSwapInterval referenced in function "private: void __thiscall Application::OpenGlInit(void)" (?OpenGlInit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_SwapWindow referenced in function "private: void __thiscall Application::Loop(void)" (?Loop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_GL_DeleteContext referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_CaptureMouse referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "private: void __thiscall Application::Loop(void)" (?Loop@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "private: void __thiscall Application::Init(void)" (?Init@Application@@AAEXXZ)
+Application.obj : error LNK2019: unresolved external symbol _SDL_QuitSubSystem referenced in function "private: void __thiscall Application::Quit(void)" (?Quit@Application@@AAEXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\david\Desktop\GP3Coursework\dependencies\lib\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\david\Desktop\GP3Coursework\dependencies\lib\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\david\Desktop\GP3Coursework\dependencies\lib\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\david\Desktop\GP3Coursework\bin\Win32\Debug\GP3Coursework_Win32.exe : fatal error LNK1120: 15 unresolved externals

@@ -1,0 +1,18 @@
+﻿  Application.cpp
+c:\users\david\desktop\gp3coursework\gp3coursework\application.cpp(249): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+c:\users\david\desktop\gp3coursework\gp3coursework\application.cpp(274): warning C4551: function call missing argument list
+c:\users\david\desktop\gp3coursework\gp3coursework\entity.h(59): warning C4715: 'Entity::GetComponent<MeshRenderer>': not all control paths return a value
+c:\users\david\desktop\gp3coursework\gp3coursework\entity.h(59): warning C4715: 'Entity::GetComponent<RigidBody>': not all control paths return a value
+  GP3Coursework.vcxproj -> C:\Users\david\Desktop\GP3Coursework\bin\x64\Debug\GP3Coursework_x64.exe
+  File not found - dlls
+  0 File(s) copied
+  C:\Users\david\Desktop\GP3Coursework\assets\cube.obj
+  C:\Users\david\Desktop\GP3Coursework\assets\Grass.jpg
+  C:\Users\david\Desktop\GP3Coursework\assets\LitFrag.glsl
+  C:\Users\david\Desktop\GP3Coursework\assets\LitVert.glsl
+  C:\Users\david\Desktop\GP3Coursework\assets\newcube.mtl
+  C:\Users\david\Desktop\GP3Coursework\assets\newcube.obj
+  C:\Users\david\Desktop\GP3Coursework\assets\simpleFrag.glsl
+  C:\Users\david\Desktop\GP3Coursework\assets\simpleVert.glsl
+  C:\Users\david\Desktop\GP3Coursework\assets\Wood.jpg
+  9 File(s) copied
